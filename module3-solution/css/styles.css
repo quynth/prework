@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  background-color: #ffffff;
+}
+#header-nav {
+  background-color: #008374;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 1.9em;
+  margin-top: 0;
+  float: left;
+}
+.navbar-brand a:hover,
+.nav-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #70b29c;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+  color: #008374;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.row {
+  margin: 5px;
+}
+.row > div {
+  border: 1px solid #000000;
+  background-color: #dbeede;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
