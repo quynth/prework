@@ -1,70 +1,53 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
   margin-bottom: 25px;
   font-family: Helvetica;
   text-align: center;
   font-size: 175%;
-  font-family: "Open Sans", sans-serif;
-}
-h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 125%;
-  font-family: "Open Sans", sans-serif;
 }
 p {
   background-color: #bbbbbbf1;
-  width: 95%;
+  width: 98%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 25px;
-  font-family: "Open Sans", sans-serif;
   color: black;
 }
-#box {
-  background-color: #bbbbbbf1;
-  padding: 0px;
-  border: 1px solid black;
-  width: 100%;
-  height: 25vh;
-  overflow: hidden;
-}
-#content {
+.content {
   background-color: #bbbbbbf1;
 }
 
 /* Simple Responsive Framework. */
-#row {
+.row {
   width: 100%;
 }
-.title1 {
-  position: relative;
+section {
+  border: 1px solid black;
+  background-color: #bbbbbbf1;
+  margin: 10px;
+}
+section > h2 {
+  float: right;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0px;
+  width: 180px;
+  font-size: 125%;
+  text-align: center;
+  padding: 5px;
+}
+section.chicken > h2 {
   background-color: #b3dcff;
-  top: 0px;
-  right: 0px;
-  float: right;
-  width: 180px;
 }
-.title2 {
-  position: relative;
+section.beef > h2 {
   background-color: #5ecc62;
-  top: 0px;
-  right: 0px;
-  float: right;
-  width: 180px;
 }
-.title3 {
-  position: relative;
+section.sushi > h2 {
   background-color: #70b29c;
-  top: 0px;
-  right: 0px;
-  float: right;
-  width: 180px;
 }
 /********** Desktop View only **********/
 @media (min-width: 992px) {
