@@ -1,6 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
 body {
   font-size: 16px;
   background-color: #ffffff;
+}
+p {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
 }
 #header-nav {
   background-color: #008374;
@@ -11,7 +21,6 @@ body {
   padding-top: 5px;
 }
 .navbar-brand h1 {
-  font-family: "Open Sans", sans-serif;
   color: #000000;
   font-size: 1.9em;
   margin-top: 0;
@@ -45,28 +54,21 @@ body {
 .row {
   margin: 5px;
 }
-.row > div {
+section {
   border: 1px solid #000000;
   background-color: #dbeede;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  height: auto;
+  margin-bottom: 25px;
 }
-
 h2 {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.8em;
   margin-top: 0;
   margin-bottom: 1em;
   font-weight: bold;
-  text-align: center;
 }
 
 h3 {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-weight: bold;
-  text-align: center;
 }
