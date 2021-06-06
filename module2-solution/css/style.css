@@ -11,16 +11,12 @@ h1 {
 }
 p {
   background-color: #bbbbbbf1;
-  width: 98%;
+  width: 95%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 25px;
   color: black;
 }
-.content {
-  background-color: #bbbbbbf1;
-}
-
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -44,10 +40,11 @@ section.chicken > h2 {
   background-color: #b3dcff;
 }
 section.beef > h2 {
-  background-color: #5ecc62;
+  background-color: #70b29c;
+  color: white;
 }
 section.sushi > h2 {
-  background-color: #70b29c;
+  background-color: #5ecc62;
 }
 /********** Desktop View only **********/
 @media (min-width: 992px) {
